@@ -45,7 +45,7 @@
       </div>
     </div>
   </nav>
-  <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %>
+  <% if (!((String) request.getAttribute("deploymentGroupName")).contains("suits4dogs-ProdEnv")) { %>
     <div class="alert alert-info" role="alert">
       <p><strong>AWS CodeDeploy Application:</strong> ${applicationName}</p>
       <p><strong>AWS CodeDeploy Deployment Group:</strong> ${deploymentGroupName}</p>
@@ -108,7 +108,7 @@
           </div>
           <div class="panel-body">
             With suits these fashionable, no one will question why your pet is there!
-            <img src="images/fancy-dog3.png" style="width:295px;height:433px;">
+            <img src="https://unsplash.it/287/360/?random" style="width:295px;height:433px;">
           </div>
         </div>
       </div>
